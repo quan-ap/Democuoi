@@ -5,11 +5,11 @@
 <?php echo "Hello World!" ?>
    </br>
 <?php
-   $host = "ec2-52-87-58-157.compute-1.amazonaws.com";
-   $dbname = "d6k7dcod066oe6";
-   $user = "wfrhukopgnebzu";
-   $password = "0b112a6c9fa77ff1bbe9c23666b727cb56e8a47c4ea068ae0e6723b5f5129b6";
-   $port = "5432";
+   $host = "8080";
+   $dbname = "Demo";
+   $user = "sa";
+   $password = "thaylinh";
+   $port = "3306";
 
    $dsn = "pgsql:host=$host;dbname=$dbname;user=$user;port=$port;password=$password sslmode=require";
 
