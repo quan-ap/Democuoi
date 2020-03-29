@@ -15,13 +15,13 @@
 
    $db = new PDO($dsn);
 
-   if (!$db) 
+   if ($db) 
    {
-     echo "Database connection failed.";
+     echo "Database connection success.";
    }
    else 
    {
-     echo "Database connection success.";
+     echo "Database connection failed.";
    }
 
 ?>
